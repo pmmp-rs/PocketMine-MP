@@ -43,7 +43,7 @@ abstract class PressurePlate extends Transparent{
 		BlockIdentifier $idInfo,
 		string $name,
 		BlockTypeInfo $typeInfo,
-		int $deactivationDelayTicks = 20 //TODO: make this mandatory in PM6
+		int $deactivationDelayTicks
 	){
 		parent::__construct($idInfo, $name, $typeInfo);
 		$this->deactivationDelayTicks = $deactivationDelayTicks;
