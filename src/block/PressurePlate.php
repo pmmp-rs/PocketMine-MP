@@ -37,7 +37,7 @@ use function count;
 abstract class PressurePlate extends Transparent{
 	use StaticSupportTrait;
 
-	private readonly int $deactivationDelayTicks;
+	private int $deactivationDelayTicks;
 
 	public function __construct(
 		BlockIdentifier $idInfo,
