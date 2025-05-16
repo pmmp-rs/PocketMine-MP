@@ -30,8 +30,6 @@ namespace pocketmine\utils;
  * Classes using this trait need to include \@method tags in their class docblock for every enum member.
  * Alternatively, just put \@generate-registry-docblock in the docblock and run build/generate-registry-annotations.php
  *
- * @deprecated Use native PHP 8.1 enums instead. Use {@link LegacyEnumShimTrait} if you need to provide backwards
- * compatible EnumTrait-like API for migrated enums.
  */
 trait EnumTrait{
 	use RegistryTrait;
